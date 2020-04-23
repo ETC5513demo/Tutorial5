@@ -7,25 +7,4 @@ output:
 keep_md: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(tidyverse)
-library(COVID19)
-library(ggplot2)
-```
-
-
-# Examining sitation in USA
-```{r}
-covid_us %>%
-  dplyr::filter(id %in%
-                  c("USA, New York",
-                    "USA, Arizona",
-                    "USA, Utah",
-                    "USA, Florida")) %>%
-  ggplot(aes(x = date,
-             y = confirmed,
-             colour = id)) +
-  geom_line()
-```
 
