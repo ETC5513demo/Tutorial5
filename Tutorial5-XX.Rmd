@@ -1,0 +1,16 @@
+---
+title: "Learning to rebase"
+author: "Yuheng Cui"
+date: "4/23/2020"
+output: 
+  bookdown::html_document2
+keep_md: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(COVID19)
+```
+
