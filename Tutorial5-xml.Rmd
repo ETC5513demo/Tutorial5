@@ -1,0 +1,8 @@
+---
+title: "Learning to rebase"
+author: "Xuanming Liang"
+data: "`r Sys.Date()`"
+output:
+  bookdown::html_document2
+keep_md: true
+---
