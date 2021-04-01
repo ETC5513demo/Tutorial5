@@ -1,2 +1,6 @@
-# Tutorial5.Rmd
-Repo for Tutorial 5
+# Tutorial 5
+
+
+In this tutorial we are learning to use git rebase, to create a .gitignore file and to collaborate with others.
+
+Something new from a pull request. 
