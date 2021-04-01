@@ -30,3 +30,4 @@ ggplot(aes(x = date , y = confirmed, color = id)) +
 geom_line()
 ```
 
+There are two plots about COVID19
