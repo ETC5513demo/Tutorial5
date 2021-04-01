@@ -1,2 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Tutorial5.Rmd
-Repo for Tutorial 5
+
+**This is Tutorial**
