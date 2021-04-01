@@ -1,0 +1,8 @@
+---
+Title: "Learning to rebase"
+Author: "Rachel Xinrui WANG"
+Date: `r Syd.dATE()`
+output:
+  bookdown::html_document2
+keep_md: true
+---
