@@ -1,0 +1,8 @@
+---
+title: "Learning to rebase"
+author: "Ibrahim"
+date: "`r Sys.Date()`"
+output:
+  bookdown::html_document2
+keep_md: true
+---
