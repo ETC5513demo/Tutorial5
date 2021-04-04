@@ -18,4 +18,17 @@ geom_line() +
 facet_wrap(~id)
 ```
 
+```{r}
+# Examining situation in USA
+covid_us %>% dplyr::filter(id %in%
+c("USA, New York",
+"USA, Arizona",
+"USA, Utah",
+"USA, Florida")
+) %>%
+ggplot(aes(x = date , y = confirmed, color = id)) +
+geom_line()
+```
+
+
   
