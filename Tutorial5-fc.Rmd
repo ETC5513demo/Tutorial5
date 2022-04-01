@@ -1,0 +1,7 @@
+---
+title: "Learning to rebase"
+author: "Fan"
+date: "`r Sys.Date()`"
+output:
+  bookdown::html_document2
+---
